@@ -74,7 +74,11 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 [Yixuan Li](https://yixuanli423.github.io/), [Xuelin Liu](https://lxlhxl123.github.io/LXL.github.io/), **Xiaoyang Wang**, Bu Sung Lee, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/), [Anderson Rocha](https://www.ic.unicamp.br/~rocha/), and [Weisi Lin](https://personal.ntu.edu.sg/wslin/Home.html).
 
-[**Project**](https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+<a href="https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file" style="vertical-align: middle; margin-right: 10px;">
+  <img src="https://img.shields.io/badge/Project-GitHub-181717?style=flat&logo=github" alt="GitHub Project">
+</a>
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - This work introduces **FakeBench**, a multimodal benchmark designed to evaluate large multimodal models (LMMs) on explainable fake image detection rather than simple binary classification.
 - The benchmark incorporates a **fine-grained taxonomy of generative visual forgeries** and human-in-the-loop textual descriptions to assess detection, reasoning, interpretation, and detailed forgery analysis.
 </div>
