@@ -34,7 +34,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2025.10*: &nbsp;🚶 Attended *ACM BCB 2025* in Philadelphia, PA and delivered a presentation.
 - *2025.08*: &nbsp;🎉🎉 Two papers accepted by [*the 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics*](https://acm-bcb.org/2025/index.php) (ACM BCB'25).
 - *2025.07*: &nbsp;🎉 A paper accepted by [IEEE Transactions on Information Forensics & Security](IEEE TIFS).
-- *2025.06*: Attended IEEE ICHI’25 & AIME’25 (both in Italy 🇮🇹) and presented remotely 🥹.
+- *2025.06*: &nbsp;👨🏻‍💻 Attended IEEE ICHI’25 & AIME’25 (both in Italy 🇮🇹) and presented remotely 🥹.
 - *2025.04*: &nbsp;🎉 A paper accepted by [*the 23rd International Conference on Artificial Intelligence in Medicine*](https://aime25.aimedicine.info/) (AIME’25).
 - *2025.01*: &nbsp;🎉🎉 Two papers accepted by [*the 13th IEEE International Conference on Health Informatics*](https://events.dimes.unical.it/ichi2025/) (IEEE ICHI’25).
 - *2024.12*: &nbsp;⛳ Successfully passed the Ph.D. candidacy examination at Drexel University.
