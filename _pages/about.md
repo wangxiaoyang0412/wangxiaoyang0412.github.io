@@ -86,11 +86,11 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 
 # 💻 Work Experience
 - *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
-- *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*), RI, Shanghai China.
+- *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*), RI, Shanghai, China.
 - *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*), [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
 
 # 🌍 Visitor Map
 
-<div style="text-align: center; margin: 40px 0;">
-  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+<div style="margin-top: 20px;">
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
 </div>
