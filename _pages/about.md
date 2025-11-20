@@ -19,7 +19,7 @@ redirect_from:
 
 I’m Xiaoyang Wang (王晓阳), a PhD candidate at [Drexel University](https://drexel.edu/) advised by [Prof. Christopher C. Yang](https://cci.drexel.edu/faculty/cyang/) in the Health Informatics Research Group. 
 
-My research centers on trustworthy AI for healthcare, with a particular focus on fairness, explainability, and reliability in clinical predictive modeling. I develop algorithms that ensure equitable model performance across demographic subgroups while maintaining high predictive accuracy. Building upon this foundation, I am now exploring multimodal learning frameworks that integrate structured EHR data, clinical notes, and medical imaging to construct unified patient representations. In parallel, I am investigating LLM-based agentic AI systems that can autonomously reason, coordinate, and adapt in complex medical and health environments. 
+My research centers on **trustworthy AI for healthcare**, with a particular focus on fairness, explainability, and reliability in clinical predictive modeling. I develop algorithms that ensure equitable model performance across demographic subgroups while maintaining high predictive accuracy. Building upon this foundation, I am now exploring **multimodal learning** frameworks that integrate structured EHR data, clinical notes, and medical imaging to construct unified patient representations. In parallel, I am investigating **LLM-based agentic AI systems** that can autonomously reason, coordinate, and adapt in complex medical and health environments. 
 
 Before joining Drexel University for my doctoral studies, I earned my M.S. degree from [the University of Pittsburgh](https://www.pitt.edu/), where I was advised by [Prof. Peter Brusilovsky](https://www.sci.pitt.edu/people/peter-brusilovsky), and my B.E. degree from [Shanghai Normal University](https://shnu.edu.cn/).
 
@@ -30,16 +30,16 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🔥 News
 
-- *2025.11*: Attended [*the AMIA Annual Symposium 2025*](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta, GA.
-- *2025.10*: Attended *ACM BCB 2025* in Philadelphia, PA and delivered a presentation.
+- *2025.11*: &nbsp;✈️ Attended [*the AMIA Annual Symposium 2025*](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta, GA.
+- *2025.10*: &nbsp;🚶 Attended *ACM BCB 2025* in Philadelphia, PA and delivered a presentation.
 - *2025.08*: &nbsp;🎉🎉 Two papers accepted by [*the 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics*](https://acm-bcb.org/2025/index.php) (ACM BCB'25).
 - *2025.07*: &nbsp;🎉 A paper accepted by [IEEE Transactions on Information Forensics & Security](IEEE TIFS).
 - *2025.06*: Attended IEEE ICHI’25 & AIME’25 (both in Italy 🇮🇹) and presented remotely 🥹.
 - *2025.04*: &nbsp;🎉 A paper accepted by [*the 23rd International Conference on Artificial Intelligence in Medicine*](https://aime25.aimedicine.info/) (AIME’25).
 - *2025.01*: &nbsp;🎉🎉 Two papers accepted by [*the 13th IEEE International Conference on Health Informatics*](https://events.dimes.unical.it/ichi2025/) (IEEE ICHI’25).
 - *2024.12*: &nbsp;⛳ Successfully passed the Ph.D. candidacy examination at Drexel University.
-- *2024.07*: Attended AIME'24 in Salt Lake City, UT 🩼 and delivered a presentation.
-- *2024.06*: Attended IEEE ICHI’24 in Orlando, FL and delivered a presentation.
+- *2024.07*: &nbsp;✈️ Attended AIME'24 in Salt Lake City, UT 🩼 and delivered a presentation.
+- *2024.06*: &nbsp;✈️ Attended IEEE ICHI’24 in Orlando, FL and delivered a presentation.
 - *2024.04*: &nbsp;🎉 A paper accepted by [*the 22nd International Conference on Artificial Intelligence in Medicine*](https://aime24.aimedicine.info/) (AIME’24).
 - *2024.03*: &nbsp;🎉 A paper accepted by [*the 12th IEEE International Conference on Health Informatics*](https://ieeeichi2024.github.io/) (IEEE ICHI’24).
 
@@ -70,10 +70,10 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 - [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE Access**
 
 # 🎖 Honors and Awards
-- *2025.06* The Student Scholar Award, AIME 2025 - €800
-- *2025.06* The Student Scholar Award, IEEE ICHI 2025 - $1000
-- *2017.10* Merit Student Researcher Scholarship, Chinese Academy of Sciences - ¥3000
-- *2016.10* Second Prize Merit Scholarship, Shanghai Normal University - ¥1200
+- *2025.06* &nbsp;The Student Scholar Award, *AIME 2025* - €800
+- *2025.06* &nbsp;The Student Scholar Award, *IEEE ICHI 2025* - $1000
+- *2017.10* &nbsp;Merit Student Researcher Scholarship, *Chinese Academy of Sciences* - ¥3000
+- *2016.10* &nbsp;Second Prize Merit Scholarship, *Shanghai Normal University* - ¥1200
 
 # 📖 Educations
 - *2022.09 - 2027.06 (now)* &nbsp;🇺🇸 **Ph.D.** in Information Science, Drexel University, Philadelphia, USA. 
@@ -85,5 +85,6 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Work Experience
-- *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), China.
-- *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), China.
+- *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
+- *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*) [RI], Shanghai China.
+- *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
