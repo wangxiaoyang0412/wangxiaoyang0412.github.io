@@ -52,8 +52,8 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
     
     /* --- 1. 核心修改：控制 badge 宽度 --- */
     /* padding: 上下像素 左右像素 */
-    /* 这里我改成了上下 2px，左右 4px (默认可能是 8px+) */
-    padding: 2px 4px !important; 
+    /* 上下 2px，左右 4px (默认可能是 8px+) */
+    padding: 1px 2px !important; 
     
     /* --- 2. 之前的垂直对其调整 --- */
     /* 因为 padding 变小了，badge 高度可能会变矮， */
@@ -62,8 +62,8 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
     vertical-align: middle !important;
     
     /* --- 3. 之前的间距调整 --- */
-    margin-left: 4px !important;
-    margin-right: 3px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
 }
 </style>
 
