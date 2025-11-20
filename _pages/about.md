@@ -59,7 +59,7 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 
 <!-- - [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), Ruochi Zhang, Qian Yang, Xiaoyang Wang, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, Fengfeng Zhou. **Pattern Recognition** -->
   
-- <div class="badge">ACM-BCB 2025</div> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, Christopher C. Yang.
+- `ACM-BCB 2025` [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang.
 
 - [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
 
