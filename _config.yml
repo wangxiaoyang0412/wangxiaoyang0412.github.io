@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiaoyang Wang (王晓阳) - Homepage"
+title                    : "Xiaoyang Wang (王晓阳)"
 # description              : "PhD Candidate at Drexel University"
 repository               : "wangxiaoyang0412/wangxiaoyang0412.github.io"
 # url                      : "https://wangxiaoyang0412.github.io"  # 线上地址
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Xiaoyang Wang"
+  name             : "Xiaoyang Wang (王晓阳)"
   avatar           : "images/IMG_0133.JPG" # e.g., "images/avatar.jpg"
   bio              : "PhD Candidate at Drexel University"
   location         : "Philadelphia, USA"

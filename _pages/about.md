@@ -56,7 +56,7 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 </div>
 </div>
 
-- [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction.](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
+- [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
 
 - [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **IEEE ICHI 2025**
 
@@ -66,7 +66,7 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
   
 - [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE ICHI 2024**
 
-- [Achieving Equity via Transfer Learning with Fairness Optimization.](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE Access**
+- [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE Access**
 
 # 🎖 Honors and Awards
 - *2025.06* The Student Scholar Award, AIME 2025 - €800
@@ -75,14 +75,14 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 - *2016.10* Second Prize Merit Scholarship, Shanghai Normal University - ¥1200
 
 # 📖 Educations
-- *2022.09 - 2027.06 (now)* 🇺🇸 PhD in Information Science, Drexel University, Philadelphia, USA. 
-- *2018.08 - 2020.05* 🇺🇸 MSc in Information Science, University of Pittsburgh, Pittsburgh, USA.
-- *2014.09 - 2018.06* 🇨🇳 BEng in Telecommunication Engineering, Shanghai Normal University, Shanghai, China.
+- *2022.09 - 2027.06 (now)* &nbsp;🇺🇸 **Ph.D.** in Information Science, Drexel University, Philadelphia, USA. 
+- *2018.08 - 2020.05* &nbsp;🇺🇸 **M.Sc.** in Information Science, University of Pittsburgh, Pittsburgh, USA.
+- *2014.09 - 2018.06* &nbsp;🇨🇳 **B.Eng.** in Telecommunication Engineering, Shanghai Normal University, Shanghai, China.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Work Experience
-- *2020.09 - 2022.09* Cloud Software Engineer (Full-time), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), China.
-- *2017.12 - 2018.06* Software Engineer (Intern) [SIMIT](http://english.sim.cas.cn/), China.
+- *2020.09 - 2022.09*  Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), China.
+- *2017.12 - 2018.06*  Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), China.
