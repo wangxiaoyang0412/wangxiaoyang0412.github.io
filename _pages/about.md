@@ -63,7 +63,7 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 
 - [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **AIME 2025** <font color="red">(Top 6% Oral)</font>
 
-- [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), Chia-Hsuan Chang*, **Xiaoyang Wang**, Christopher C. Yang. **AIME 2024**
+- [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), Chia-Hsuan Chang*, **Xiaoyang Wang***, Christopher C. Yang. **AIME 2024**
   
 - [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE ICHI 2024**
 
@@ -84,10 +84,11 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# 💻 Work Experience
+
+<!-- # 💻 Misc
 - *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
 - *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*), RI, Shanghai, China.
-- *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*), [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
+- *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*), [SIMIT](http://english.sim.cas.cn/), Shanghai, China. -->
 
 # 🌍 Visitor Map
 
