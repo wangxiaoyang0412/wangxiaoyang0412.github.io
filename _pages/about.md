@@ -29,23 +29,24 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 
 # 🔥 News
+- *2025.11*: &nbsp; Attended [the AMIA Annual Symposium 2025](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta.
 - *2025.08*: &nbsp;🎉🎉 Two papers accepted by [The 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics](https://acm-bcb.org/2025/index.php) (ACM BCB'25). 
-- *2025.07*: &nbsp;🎉🎉 A paper accepted by [IEEE Transactions on Information Forensics & Security](IEEE TIFS).
-- *2025.04*: &nbsp;🎉🎉 A paper accepted by [the 23rd International Conference on Artificial Intelligence in Medicine](https://aime25.aimedicine.info/) (AIME’25).
+- *2025.07*: &nbsp;🎉 A paper accepted by [IEEE Transactions on Information Forensics & Security](IEEE TIFS).
+- *2025.04*: &nbsp;🎉 A paper accepted by [the 23rd International Conference on Artificial Intelligence in Medicine](https://aime25.aimedicine.info/) (AIME’25).
 - *2025.01*: &nbsp;🎉🎉 Two papers accepted by [the 12th IEEE International Conference on Health Informatics](https://events.dimes.unical.it/ichi2025/) (IEEE ICHI’25).
-- *2024.04*: &nbsp;🎉🎉 A paper accepted by [the 22nd International Conference on Artificial Intelligence in Medicine](https://aime24.aimedicine.info/) (AIME’24).
-- *2024.03*: &nbsp;🎉🎉 A paper accepted by [the 12th IEEE International Conference on Health Informatics](https://ieeeichi2024.github.io/) (IEEE ICHI’24).
+- *2024.04*: &nbsp;🎉 A paper accepted by [the 22nd International Conference on Artificial Intelligence in Medicine](https://aime24.aimedicine.info/) (AIME’24).
+- *2024.03*: &nbsp;🎉 A paper accepted by [the 12th IEEE International Conference on Health Informatics](https://ieeeichi2024.github.io/) (IEEE ICHI’24).
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS</div><img src='images/fakebench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models](https://arxiv.org/pdf/2404.13306?)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
