@@ -45,6 +45,24 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 📝 Publications 
 
+<style>
+.badge-inline {
+    display: inline-block !important;
+    position: relative !important;
+    
+    /* 解决问题 3: 垂直位置偏低 */
+    /* top: -3px 表示向上移动3像素，你可以根据肉眼感觉改成 -2px 或 -4px */
+    top: -3px !important; 
+    vertical-align: middle !important;
+    
+    /* 解决问题 2: 与 bullet point 间隔过小 */
+    margin-left: 3px !important;
+    
+    /* 解决问题 1: 右侧空隙太大 */
+    margin-right: 3px !important;
+}
+</style>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS</div><img src='images/fakebench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -53,25 +71,22 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin
 
 [**Project**](https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
-
-<!-- - [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), Ruochi Zhang, Qian Yang, Xiaoyang Wang, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, Fengfeng Zhou. **Pattern Recognition** -->
   
-- <span class="badge" style="display: inline-block; position: relative; top: auto; left: auto; bottom: auto; vertical-align: middle; margin-right: 6px;">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, Christopher C. Yang.
+- <span class="badge badge-inline">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, Christopher C. Yang.
 
-- [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
+- <span class="badge badge-inline">ACM-BCB 2025</span> [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang.
 
-- [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **IEEE ICHI 2025**
+- <span class="badge badge-inline">IEEE ICHI 2025</span> [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, Christopher C. Yang.
 
-- [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **AIME 2025** <font color="red">(Top 6% Oral)</font>
+- <span class="badge badge-inline">AIME 2025</span> [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. <font color="red">(Top 6% Oral)</font>
 
-- [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), Chia-Hsuan Chang*, **Xiaoyang Wang***, Christopher C. Yang. **AIME 2024**
+- <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), Chia-Hsuan Chang*, **Xiaoyang Wang***, Christopher C. Yang.
   
-- [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE ICHI 2024**
+- <span class="badge badge-inline">IEEE ICHI 2024</span> [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang.
 
-- [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE Access**
+- <span class="badge badge-inline">IEEE Access</span> [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang.
 
 # 🎖 Honors and Awards
 - *2025.06* &nbsp;The Student Scholar Award, *AIME 2025* - €800
