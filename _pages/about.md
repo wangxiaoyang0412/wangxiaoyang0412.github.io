@@ -29,11 +29,16 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 
 # 🔥 News
-- *2025.11*: &nbsp; Attended [the AMIA Annual Symposium 2025](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta.
-- *2025.08*: &nbsp;🎉🎉 Two papers accepted by [The 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics](https://acm-bcb.org/2025/index.php) (ACM BCB'25). 
+- *2025.11*: Attended ACM BCB 2025 in Philadelphia, PA and delivered a presentation.
+- *2025.10*: Attended [the AMIA Annual Symposium 2025](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta, GA.
+- *2025.08*: &nbsp;🎉🎉 Two papers accepted by [The 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics](https://acm-bcb.org/2025/index.php) (ACM BCB'25).
 - *2025.07*: &nbsp;🎉 A paper accepted by [IEEE Transactions on Information Forensics & Security](IEEE TIFS).
+- *2025.06*: Attended IEEE ICHI’25 & AIME’25 (both in Italy 🇮🇹) and presented remotely 🥹.
 - *2025.04*: &nbsp;🎉 A paper accepted by [the 23rd International Conference on Artificial Intelligence in Medicine](https://aime25.aimedicine.info/) (AIME’25).
 - *2025.01*: &nbsp;🎉🎉 Two papers accepted by [the 12th IEEE International Conference on Health Informatics](https://events.dimes.unical.it/ichi2025/) (IEEE ICHI’25).
+- *2024.12*: &nbsp;⛳ Successfully passed the Ph.D. candidacy examination at Drexel University.
+- *2024.07*: Attended AIME'24 in Salt Lake City, UT 🩼 and delivered a presentation.
+- *2024.06*: Attended IEEE ICHI’24 in Orlando, FL and delivered a presentation.
 - *2024.04*: &nbsp;🎉 A paper accepted by [the 22nd International Conference on Artificial Intelligence in Medicine](https://aime24.aimedicine.info/) (AIME’24).
 - *2024.03*: &nbsp;🎉 A paper accepted by [the 12th IEEE International Conference on Health Informatics](https://ieeeichi2024.github.io/) (IEEE ICHI’24).
 
@@ -47,11 +52,21 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin
 
 [**Project**](https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction.](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
+
+- [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **IEEE ICHI 2025**
+
+- [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **AIME 2025** <font color="red">(Top 6% Oral)</font>
+
+- [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), Chia-Hsuan Chang*, **Xiaoyang Wang**, Christopher C. Yang. **AIME 2024**
+  
+- [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE ICHI 2024**
+
+- [Achieving Equity via Transfer Learning with Fairness Optimization.](https://github.com), **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang. **IEEE Access**
 
 # 🎖 Honors and Awards
 - *2025.06* The Student Scholar Award, AIME 2025 - €800
