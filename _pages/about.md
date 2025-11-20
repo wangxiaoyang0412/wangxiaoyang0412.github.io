@@ -90,7 +90,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 - <span class="badge badge-inline">AIME 2025</span> [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/). <font color="red">(Top 6% Oral)</font>
 
-- <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), [Chia-Hsuan Chang*](https://ponshane.github.io/), **Xiaoyang Wang***, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), [Chia-Hsuan Chang\*](https://ponshane.github.io/), **Xiaoyang Wang\***, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
   
 - <span class="badge badge-inline">IEEE ICHI 2024</span> [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), [Mary M. Lucas](https://marylucas.com/), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
