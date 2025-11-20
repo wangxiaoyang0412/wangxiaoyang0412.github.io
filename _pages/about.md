@@ -92,5 +92,5 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 # 🌍 Visitor Map
 
 <div style="margin-top: 20px;">
-<script type="text/javascript" src="https://rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+<a href="https://mapmyvisitors.com/web/1c0rl"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=VwnZlP0yX7sO015IomJBlgADuuGHtL83o_f0LsUttyQ&cl=ffffff" /></a>
 </div>
