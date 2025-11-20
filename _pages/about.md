@@ -59,6 +59,8 @@ Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Roch
 
 - [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
 
+- [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang. **ACM-BCB 2025**
+
 - [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **IEEE ICHI 2025**
 
 - [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, Christopher C. Yang. **AIME 2025** <font color="red">(Top 6% Oral)</font>
