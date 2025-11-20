@@ -50,15 +50,19 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
     display: inline-block !important;
     position: relative !important;
     
-    /* 解决问题 3: 垂直位置偏低 */
-    /* top: -3px 表示向上移动3像素，你可以根据肉眼感觉改成 -2px 或 -4px */
+    /* --- 1. 核心修改：控制 badge 宽度 --- */
+    /* padding: 上下像素 左右像素 */
+    /* 这里我改成了上下 2px，左右 4px (默认可能是 8px+) */
+    padding: 2px 4px !important; 
+    
+    /* --- 2. 之前的垂直对其调整 --- */
+    /* 因为 padding 变小了，badge 高度可能会变矮， */
+    /* 如果觉得现在位置太高，可以把下面的 -3px 改成 -2px */
     top: -3px !important; 
     vertical-align: middle !important;
     
-    /* 解决问题 2: 与 bullet point 间隔过小 */
-    margin-left: 3px !important;
-    
-    /* 解决问题 1: 右侧空隙太大 */
+    /* --- 3. 之前的间距调整 --- */
+    margin-left: 4px !important;
     margin-right: 3px !important;
 }
 </style>
