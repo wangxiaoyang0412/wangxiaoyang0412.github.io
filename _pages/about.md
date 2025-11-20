@@ -92,7 +92,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 - <span class="badge badge-inline">IEEE ICHI 2025</span> [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">AIME 2025</span> (Top 6% Oral) [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/). <font color="red"></font>
+- <span class="badge badge-inline">AIME 2025</span> <font color="red">(Top 6% Oral)</font> [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
 - <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), [Chia-Hsuan Chang\*](https://ponshane.github.io/), **Xiaoyang Wang\***, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
   
