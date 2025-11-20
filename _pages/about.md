@@ -72,9 +72,11 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 [FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models](https://arxiv.org/pdf/2404.13306?)
 
-Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin
+Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin.
 
 [**Project**](https://github.com/Yixuanli423/FakeBench?tab=readme-ov-file) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work introduces **FakeBench**, a multimodal benchmark designed to evaluate large multimodal models (LMMs) on explainable fake image detection rather than simple binary classification.
+- The benchmark incorporates a **fine-grained taxonomy of generative visual forgeries** and human-in-the-loop textual descriptions to assess detection, reasoning, interpretation, and detailed forgery analysis.
 </div>
 </div>
   
