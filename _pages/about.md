@@ -53,12 +53,12 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
     /* --- 1. 核心修改：控制 badge 宽度 --- */
     /* padding: 上下像素 左右像素 */
     /* 上下 2px，左右 4px (默认可能是 8px+) */
-    padding: 1px 2px !important; 
+    padding: 0px 2px !important; 
     
     /* --- 2. 之前的垂直对其调整 --- */
     /* 因为 padding 变小了，badge 高度可能会变矮， */
     /* 如果觉得现在位置太高，可以把下面的 -3px 改成 -2px */
-    top: -3px !important; 
+    top: -4px !important; 
     vertical-align: middle !important;
     
     /* --- 3. 之前的间距调整 --- */
