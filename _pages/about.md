@@ -120,9 +120,9 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*) Radar Institute, Shanghai, China.
 - *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
 
-# ⚖️ Academic Participation
-- Journal Reviewer: Journal of the American Medical Informatics Association(JAMIA), Journal of Healthcare Informatics Research (JHIR), IEEE Transactions on Information Forensics & Security (TIFS),Information Processing and Management (IPM)
-- Conference Reviewer: NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26
+# ⚖️ Academic Participation {#academic-participation}
+- Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*),Information Processing and Management (*IPM*)
+- Conference Reviewer: *NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26*
 
 <!-- # 💻 Misc
 - *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
