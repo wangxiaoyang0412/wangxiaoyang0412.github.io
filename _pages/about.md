@@ -124,6 +124,12 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*),Information Processing and Management (*IPM*)
 - Conference Reviewer: *NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26*
 
+# 🍎 Teaching Experience {#teaching}
+
+- *2024.09 - 2024.12* &nbsp; Teaching Assistant, *INFO 212: Data Science Programming I*, Drexel University, Philadelphia, PA.
+- *2017.02 - 2017.05* &nbsp; Teaching Assistant, *Digital Switching*, Shanghai Normal University, Shanghai, China.
+- *2015.09 - 2015.12* &nbsp; Teaching Assistant, *Probability Theory and Mathematical Statistics*, Shanghai Normal University, Shanghai, China.
+
 <!-- # 💻 Misc
 - *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
 - *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*), RI, Shanghai, China.
