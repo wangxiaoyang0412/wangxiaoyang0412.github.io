@@ -85,7 +85,25 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 </div>
 </div>
 
-- <span class="badge badge-inline">Pattern Recognition</span> [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), [Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en).
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition</div><img src='images/DeepSelective.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://arxiv.org/pdf/2504.11264)
+
+[Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en).
+
+<a href="http://www.healthinformaticslab.org/supp/DeepSelective/DeepSelective-v2.zip" style="vertical-align: middle; margin-right: 10px;">
+  <img src="https://img.shields.io/badge/Project-GitHub-181717?style=flat&logo=github" alt="GitHub Project">
+</a>
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This work proposes **DeepSelective**, a novel end to end deep learning framework for predicting patient prognosis using EHR data, with a strong emphasis on enhancing model interpretability.
+- DeepSelective combines **data compression** techniques with an innovative **feature selection** approach, integrating custom-designed modules that work together to improve both **accuracy and interpretability**.
+</div>
+</div>
+
+
+<!-- - <span class="badge badge-inline">Pattern Recognition</span> [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), [Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en). -->
 
 - <span class="badge badge-inline">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
