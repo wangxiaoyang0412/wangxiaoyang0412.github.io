@@ -30,6 +30,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🔥 News
 
+- *2026.01*: &nbsp;🎉 A paper accepted by [*the 14th IEEE International Conference on Health Informatics*](https://zhang-informatics.github.io/ICHI2026) (IEEE ICHI’26).
 - *2025.12*: &nbsp;🎉 A paper accepted by [*Pattern Recognition*](https://www.journals.elsevier.com/pattern-recognition).
 - *2025.11*: &nbsp;✈️ Attended [*the AMIA Annual Symposium 2025*](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta, GA.
 - *2025.10*: &nbsp;🚶 Attended *ACM BCB 2025* in Philadelphia, PA and delivered a presentation.
@@ -105,19 +106,21 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 <!-- - <span class="badge badge-inline">Pattern Recognition</span> [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), [Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en). -->
 
-- <span class="badge badge-inline">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">IEEE ICHI 2026</span> [MediHive: A Decentralized Agent Collective for Medical Reasoning](https://wangxiaoyang.me/), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">ACM-BCB 2025</span> [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://github.com), Yeawon Lee, **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://wangxiaoyang.me/), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">IEEE ICHI 2025</span> [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">ACM-BCB 2025</span> [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://wangxiaoyang.me/), Yeawon Lee, **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">AIME 2025</span> <font color="red">(Top 6% Oral)</font> [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">IEEE ICHI 2025</span> [Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://wangxiaoyang.me/), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://github.com), [Chia-Hsuan Chang\*](https://ponshane.github.io/), **Xiaoyang Wang\***, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">AIME 2025</span> <font color="red">(Top 6% Oral)</font> [Balancing Fairness and Performance in Healthcare AI: A Gradient Projection Approach](https://wangxiaoyang.me/), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+
+- <span class="badge badge-inline">AIME 2024</span> [Explainable AI for Fair Sepsis Mortality Predictive Model](https://wangxiaoyang.me/), [Chia-Hsuan Chang\*](https://ponshane.github.io/), **Xiaoyang Wang\***, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
   
-- <span class="badge badge-inline">IEEE ICHI 2024</span> [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://github.com), [Mary M. Lucas](https://marylucas.com/), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">IEEE ICHI 2024</span> [An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://wangxiaoyang.me/), [Mary M. Lucas](https://marylucas.com/), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
-- <span class="badge badge-inline">IEEE Access</span> [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+- <span class="badge badge-inline">IEEE Access</span> [Achieving Equity via Transfer Learning with Fairness Optimization](https://wangxiaoyang.me/), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
 # 🎖 Honors and Awards
 - *2025.06* &nbsp;The Student Scholar Award, *AIME 2025* - €800
