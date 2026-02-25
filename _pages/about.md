@@ -141,7 +141,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
 
 # ⚖️ Academic Participation {#academic-participation}
-- Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*), Information Processing and Management (*IPM*)
+- Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*), Information Processing and Management (*IPM*), ACM Transactions on Computing for Healthcare (*HEALTH*)
 - Conference Reviewer: *NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26, WWW'26, Digital Twins for Health Society (DT4HS), IEEE ICME’26*
 
 # 🍎 Teaching Experience {#teaching}
