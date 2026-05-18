@@ -30,6 +30,8 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🔥 News
 
+- *2026.05*: &nbsp;🎉 A paper accepted by [*AMIA 2026 Annual Symposium*](https://amia.org/education-events/amia-2026-annual-symposium).
+- *2026.05*: &nbsp;🎉 A paper accepted by [*Journal of Healthcare Informatics Research*](https://link.springer.com/journal/41666).
 - *2026.01*: &nbsp;🎉 A paper accepted by [*the 14th IEEE International Conference on Health Informatics*](https://zhang-informatics.github.io/ICHI2026) (IEEE ICHI’26).
 - *2025.12*: &nbsp;🎉 A paper accepted by [*Pattern Recognition*](https://www.journals.elsevier.com/pattern-recognition).
 - *2025.11*: &nbsp;✈️ Attended [*the AMIA Annual Symposium 2025*](https://amia.org/education-events/amia-2025-annual-symposium) in Atlanta, GA.
@@ -141,7 +143,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
 
 # ⚖️ Academic Participation {#academic-participation}
-- Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*), Information Processing and Management (*IPM*), ACM Transactions on Computing for Healthcare (*HEALTH*), Medical Image Analysis (*MedIA*)
+- Journal Reviewer: Journal of the American Medical Informatics Association(*JAMIA*), Journal of Healthcare Informatics Research (*JHIR*), IEEE Transactions on Information Forensics & Security (*TIFS*), Information Processing and Management (*IPM*), ACM Transactions on Computing for Healthcare (*HEALTH*), Medical Image Analysis (*MedIA*),Computers and Electrical Engineering (*COMPELECENG*)
 - Conference Reviewer: *NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26, WWW'26, Digital Twins for Health Society (DT4HS), IEEE ICME’26*
 
 # 🍎 Teaching Experience {#teaching}
