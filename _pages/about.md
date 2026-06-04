@@ -17,12 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m Xiaoyang Wang (王晓阳), a PhD candidate at [Drexel University](https://drexel.edu/) advised by [Prof. Christopher C. Yang](https://cci.drexel.edu/faculty/cyang/) in the Health Informatics Research Group. 
+I’m Xiaoyang Wang (王晓阳), a PhD candidate at [Drexel University](https://drexel.edu/) advised by [Prof. Christopher C. Yang](https://cci.drexel.edu/faculty/cyang/) in the Health Informatics Research Lab.
 
-My research centers on **trustworthy AI for healthcare**, with a particular focus on fairness, explainability, and reliability in clinical predictive modeling. I develop algorithms that ensure equitable model performance across demographic subgroups while maintaining high predictive accuracy. Building upon this foundation, I am now exploring **multimodal learning** frameworks that integrate structured EHR data, clinical notes, and medical imaging to construct unified patient representations. In parallel, I am investigating **LLM-based agentic AI systems** that can autonomously reason, coordinate, and adapt in complex medical and health environments. 
+My research centers on **trustworthy AI for healthcare**, with a particular focus on fairness, explainability, and reliability in clinical predictive modeling. I develop algorithms that ensure equitable model performance across demographic subgroups while maintaining high predictive accuracy. Building upon this foundation, I am now exploring **multimodal learning** frameworks that integrate structured EHR data, clinical notes, and medical imaging to construct unified patient representations. In parallel, I am investigating **LLM-based agentic AI systems** that can autonomously reason, coordinate, and adapt in complex medical and health environments.
 
 Before joining Drexel University for my doctoral studies, I earned my M.S. degree from [the University of Pittsburgh](https://www.pitt.edu/), where I was advised by [Prof. Peter Brusilovsky](https://www.sci.pitt.edu/people/peter-brusilovsky), and my B.E. degree from [Shanghai Normal University](https://shnu.edu.cn/).
-
 
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
