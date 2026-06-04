@@ -175,7 +175,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2026.01 - 2026.03* &nbsp; Teaching Assistant, *INFO 103: Introduction to Data Science*, Drexel University, Philadelphia, PA.
 - *2024.09 - 2024.12* &nbsp; Teaching Assistant, *INFO 212: Data Science Programming I*, Drexel University, Philadelphia, PA.
 - *2017.02 - 2017.05* &nbsp; Teaching Assistant, *Digital Switching*, Shanghai Normal University, Shanghai, China.
-- *2015.09 - 2015.12* &nbsp; Teaching Assistant, *Probability Theory and Mathematical Statistics*, Shanghai Normal University, Shanghai, China.
+<!-- - *2015.09 - 2015.12* &nbsp; Teaching Assistant, *Probability Theory and Mathematical Statistics*, Shanghai Normal University, Shanghai, China. -->
 
 <!-- # 💻 Misc
 - *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
