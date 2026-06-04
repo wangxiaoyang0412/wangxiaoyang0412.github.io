@@ -30,6 +30,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🔥 News
 
+- *2026.06*: &nbsp;✈️ Attended *IEEE ICHI 2026* in Minneapolis, MN and delivered a presentation.
 - *2026.05*: &nbsp;🎉 A paper accepted by [*AMIA 2026 Annual Symposium*](https://amia.org/education-events/amia-2026-annual-symposium).
 - *2026.05*: &nbsp;🎉 A paper accepted by [*Journal of Healthcare Informatics Research*](https://link.springer.com/journal/41666).
 - *2026.01*: &nbsp;🎉 A paper accepted by [*the 14th IEEE International Conference on Health Informatics*](https://zhang-informatics.github.io/ICHI2026) (IEEE ICHI’26).
@@ -123,6 +124,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - <span class="badge badge-inline">IEEE Access</span> [Achieving Equity via Transfer Learning with Fairness Optimization](https://github.com), **Xiaoyang Wang**, [Chia-Hsuan Chang](https://ponshane.github.io/), [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
 # 🎖 Honors and Awards
+- *2026.06* &nbsp;The Institute for Healthcare Informatics (IHI) Student Award - $600
 - *2025.06* &nbsp;The Student Scholar Award, *AIME 2025* - €800
 - *2025.06* &nbsp;The Student Scholar Award, *IEEE ICHI 2025* - $1000
 - *2017.10* &nbsp;Merit Student Researcher Scholarship, *Chinese Academy of Sciences* - ¥3000
@@ -138,7 +140,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Work Experience
-- *2020.09 - 2022.09* &nbsp;Cloud Software Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
+- *2020.09 - 2022.09* &nbsp;Risk Management Engineer (*Full-time*), [China CITIC Bank](https://www.group.citic/en/Diversified_Portfolio/Finance/Bank/), Beijing, China.
 - *2017.12 - 2018.06* &nbsp;Software Engineer (*Intern*) Radar Institute, Shanghai, China.
 - *2017.04 - 2017.07* &nbsp;Software Engineer (*Intern*) [SIMIT](http://english.sim.cas.cn/), Shanghai, China.
 
@@ -148,6 +150,8 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🍎 Teaching Experience {#teaching}
 
+- *2026.03 - 2026.06* &nbsp; Teaching Assistant, *INFO 152: Web Systems & Services II*, Drexel University, Philadelphia, PA.
+- *2026.03 - 2026.06* &nbsp; Teaching Assistant, *INFO 250: Info Visualization*, Drexel University, Philadelphia, PA.
 - *2026.03 - 2026.06* &nbsp; Teaching Assistant, *INFO 103: Introduction to Data Science*, Drexel University, Philadelphia, PA.
 - *2026.03 - 2026.06* &nbsp; Teaching Assistant, *INFO 623: Social Network Analysis*, Drexel University, Philadelphia, PA.
 - *2026.01 - 2026.03* &nbsp; Teaching Assistant, *INFO 103: Introduction to Data Science*, Drexel University, Philadelphia, PA.
