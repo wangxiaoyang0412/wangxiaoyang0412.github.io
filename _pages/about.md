@@ -106,8 +106,26 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Healthcare Informatics Research</div><img src='images/MediHive.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MediHive: A Decentralized Agent Collective for Medical Reasoning](https://link.springer.com/article/10.1007/s41666-026-00239-7)
+
+[**Xiaoyang Wang**], [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+
+<a href="http://www.healthinformaticslab.org/supp/DeepSelective/DeepSelective-v2.zip" style="vertical-align: middle; margin-right: 10px;">
+  <img src="https://img.shields.io/badge/Project-GitHub-181717?style=flat&logo=github" alt="GitHub Project">
+</a>
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- **MediHive** is a **decentralized** multi-agent framework for medical question answering, in which LLM-based agents self-assign specialized roles, resolve disagreements through conditional evidence-based debate, and iteratively fuse peer insights via a shared memory pool to reach consensus **without** any central coordinator.
+</div>
+</div>
+
 
 <!-- - <span class="badge badge-inline">Pattern Recognition</span> [DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://github.com), [Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Haoran Wu, Qiong Zhou, Yu Wang, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en). -->
+
+- <span class="badge badge-inline">AMIA 2026 Annual Symposium</span> [Strategy-Guided Multi-Agent Debate for Medical Question Answering](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
 - <span class="badge badge-inline">ACM-BCB 2025</span> [MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://github.com), **Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
