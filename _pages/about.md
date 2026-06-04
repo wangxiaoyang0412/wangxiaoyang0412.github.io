@@ -111,7 +111,7 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 [MediHive: A Decentralized Agent Collective for Medical Reasoning](https://link.springer.com/article/10.1007/s41666-026-00239-7)
 
-[**Xiaoyang Wang**], [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+**Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
 
 <a href="http://www.healthinformaticslab.org/supp/DeepSelective/DeepSelective-v2.zip" style="vertical-align: middle; margin-right: 10px;">
   <img src="https://img.shields.io/badge/Project-GitHub-181717?style=flat&logo=github" alt="GitHub Project">
