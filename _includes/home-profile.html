@@ -1,0 +1,48 @@
+{% assign author = site.author %}
+{% assign preferred_name = author.preferred_name | default: "Shawn" %}
+
+<section class="home-profile" itemscope itemtype="https://schema.org/Person" aria-labelledby="home-profile-name">
+  <div class="home-profile__avatar">
+    <img src="{{ author.avatar | relative_url }}" alt="Portrait of {{ author.name }}" itemprop="image" width="480" height="480" fetchpriority="high" decoding="async">
+  </div>
+
+  <div class="home-profile__content">
+    <p class="home-profile__kicker">Trustworthy AI for Healthcare</p>
+    <h1 class="home-profile__name author__name" id="home-profile-name" itemprop="name">
+      <span class="author__name-primary">{{ author.name }} <span lang="zh">(王晓阳)</span></span>
+      <span class="author__preferred-name" aria-hidden="true">{{ preferred_name }}</span>
+      <span class="screen-reader-text">Preferred name: {{ preferred_name }}</span>
+    </h1>
+
+    <p class="home-profile__summary">I’m a PhD candidate at <a href="https://drexel.edu/">Drexel University</a>, advised by <a href="https://cci.drexel.edu/faculty/cyang/">Prof. Christopher C. Yang</a> in the Health Informatics Research Lab.</p>
+    <p class="home-profile__background">Before joining Drexel, I earned my M.S. from <a href="https://www.pitt.edu/">the University of Pittsburgh</a>, advised by <a href="https://www.sci.pitt.edu/people/peter-brusilovsky">Prof. Peter Brusilovsky</a>, and my B.E. from <a href="https://shnu.edu.cn/">Shanghai Normal University</a>.</p>
+
+    <ul class="home-profile__links" aria-label="Contact and academic profiles">
+      {% if author.location %}
+        <li class="home-profile__contact--location"><span><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>{{ author.location }}</span></li>
+      {% endif %}
+      {% if author.email %}
+        <li class="home-profile__contact--email"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a></li>
+      {% endif %}
+      {% assign cv_file = site.static_files | where: "path", "/files/Xiaoyang_Wang_CV.pdf" | first %}
+      {% if cv_file %}
+        <li class="home-profile__contact--cv"><a href="{{ cv_file.path | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>CV</a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li class="home-profile__contact--scholar"><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>Google Scholar</a></li>
+      {% endif %}
+      {% if author.github %}
+        <li class="home-profile__contact--github"><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li class="home-profile__contact--linkedin"><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+      {% endif %}
+      {% if author.orcid %}
+        <li class="home-profile__contact--orcid"><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw" aria-hidden="true"></i>ORCID</a></li>
+      {% endif %}
+      {% if author.twitter %}
+        <li class="home-profile__contact--x"><a href="https://x.com/{{ author.twitter }}"><svg class="home-profile__x-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>X</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</section>

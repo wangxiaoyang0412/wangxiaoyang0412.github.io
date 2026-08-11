@@ -1,29 +1,19 @@
-# main links links
+# Primary homepage navigation (anchors must match the section ids in _pages/about.md)
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "Research"
+    url: "/#research"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Background"
+    url: "/#background"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Service"
+    url: "/#service"
 
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  - title: "Work Experience"
-    url: "/#-work-experience"
-
-  - title: "Academic Participation"
-    url: "/#academic-participation"
-
-  - title: "Teaching Experience"
+  - title: "Teaching"
     url: "/#teaching"
-

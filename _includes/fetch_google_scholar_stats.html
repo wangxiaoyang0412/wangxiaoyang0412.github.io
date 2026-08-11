@@ -1,19 +1,60 @@
 <script>
-    $(document).ready(function () {
+    document.addEventListener('DOMContentLoaded', function () {
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@';
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/';
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+
+        var normalizeTitle = function (title) {
+            return String(title || '')
+                .normalize('NFKD')
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, ' ')
+                .trim();
+        };
+
+        fetch(gsDataBaseUrl + 'google-scholar-stats/gs_data.json', {
+            headers: { 'Accept': 'application/json' }
+        })
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error('Google Scholar data request failed with status ' + response.status);
+            }
+            return response.json();
+        })
+        .then(function (data) {
+            var totalCitationElement = document.getElementById('total_cit');
+            if (totalCitationElement && Number.isFinite(Number(data.citedby))) {
+                totalCitationElement.textContent = Number(data.citedby).toLocaleString();
+            }
+
+            var publications = Object.values(data.publications || {});
+            document.querySelectorAll('.show_paper_citations').forEach(function (element) {
+                var requestedTitles = String(element.dataset.paperTitle || '')
+                    .split('||')
+                    .map(normalizeTitle)
+                    .filter(Boolean);
+
+                var publication = publications.find(function (item) {
+                    var title = item && item.bib ? item.bib.title : '';
+                    return requestedTitles.includes(normalizeTitle(title));
+                });
+
+                var citationCount = Number(publication && publication.num_citations);
+                if (!publication || !Number.isFinite(citationCount)) {
+                    return;
+                }
+
+                element.textContent = 'Google Scholar citations: ' + citationCount.toLocaleString();
+                element.hidden = false;
+                if (data.updated) {
+                    element.title = 'Google Scholar data updated ' + data.updated;
+                }
             });
+        })
+        .catch(function () {
+            // Citation counts are supplementary; keep the publication list usable if data is unavailable.
         });
-    })
+    });
 </script>

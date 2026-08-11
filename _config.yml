@@ -7,10 +7,12 @@
 
 # Site Settings
 title                    : "Xiaoyang Wang (王晓阳)"
-description              : "PhD Candidate at Drexel University"
+tagline                  : "PhD Candidate at Drexel University · Trustworthy AI for Healthcare"
+description              : "Xiaoyang Wang (Shawn) is a PhD candidate at Drexel University working on trustworthy AI for healthcare: fairness and explainability, multimodal learning, and LLM-based medical agents."
 repository               : "wangxiaoyang0412/wangxiaoyang0412.github.io"
-# url                      : "https://wangxiaoyang0412.github.io"  # 线上地址
-# baseurl                  : ""  # 本地预览必须为空
+url                      : "https://wangxiaoyang0412.github.io"
+baseurl                  : ""
+og_image                 : "images/og-avatar.jpg"  # social share preview image (absolute URL is built automatically)
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,7 +26,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiaoyang Wang"
-  avatar           : "images/IMG_0133.JPG" # e.g., "images/avatar.jpg"
+  preferred_name   : "Shawn"
+  avatar           : "images/avatar.webp" # e.g., "images/avatar.jpg"
   bio              : ""
   location         : "Philadelphia, USA"
   employer         :
@@ -53,7 +56,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/SynchronizedAbe"
+  twitter          : "SynchronizedAbe"
   vine             :
   weibo            :
   xing             :
@@ -138,7 +141,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

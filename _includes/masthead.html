@@ -1,16 +1,100 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a class="primary-nav__home" href="{{ '/#about-me' | relative_url }}">Xiaoyang Wang</a>
+
+        <ul class="primary-nav__links">
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+
+        <details class="primary-nav__mobile">
+          <summary aria-label="Open navigation menu">
+            <span class="primary-nav__menu-icon" aria-hidden="true"></span>
+          </summary>
+          <ul>
+            {% for link in site.data.navigation.main %}
+              <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var mobileNav = document.querySelector(".primary-nav__mobile");
+    if (!mobileNav) return;
+
+    var menuButton = mobileNav.querySelector("summary");
+    var syncMenuLabel = function () {
+      menuButton.setAttribute(
+        "aria-label",
+        mobileNav.open ? "Close navigation menu" : "Open navigation menu"
+      );
+    };
+
+    mobileNav.addEventListener("toggle", syncMenuLabel);
+    mobileNav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        mobileNav.removeAttribute("open");
+      });
+    });
+  })();
+
+  // Scroll spy: mark the nav item of the section currently in view with a dot.
+  // Runs on DOMContentLoaded because the observed sections appear later in the document.
+  document.addEventListener("DOMContentLoaded", function () {
+    var links = document.querySelectorAll(".primary-nav__links a[href*='#'], .primary-nav__mobile a[href*='#']");
+    if (!links.length) return;
+
+    var pairs = [];
+    var targets = [];
+    var seen = {};
+
+    links.forEach(function (link) {
+      var hash = (link.getAttribute("href") || "").split("#")[1];
+      if (!hash) return;
+      var target = document.getElementById(hash);
+      if (!target) return;
+      pairs.push({ link: link, target: target });
+      if (!seen[hash]) {
+        seen[hash] = true;
+        targets.push(target);
+      }
+    });
+
+    if (!pairs.length) return;
+
+    var ticking = false;
+
+    var update = function () {
+      ticking = false;
+      var offset = 140;
+      var current = null;
+      targets.forEach(function (target) {
+        if (target.getBoundingClientRect().top <= offset) {
+          current = target;
+        }
+      });
+      pairs.forEach(function (pair) {
+        pair.link.classList.toggle("is-current", current !== null && pair.target === current);
+      });
+    };
+
+    var requestUpdate = function () {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+    };
+
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    update();
+  });
+</script>
