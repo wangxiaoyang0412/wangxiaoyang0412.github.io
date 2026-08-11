@@ -20,6 +20,11 @@
             {% endfor %}
           </ul>
         </details>
+
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+          <i class="fas fa-sun" aria-hidden="true"></i>
+        </button>
       </nav>
     </div>
   </div>
@@ -97,4 +102,28 @@
     window.addEventListener("resize", requestUpdate);
     update();
   });
+
+  // Theme toggle: switch light/dark, persist choice, keep meta theme-color in sync
+  (function () {
+    var toggle = document.querySelector(".theme-toggle");
+    if (!toggle) return;
+
+    var themeColors = { light: "#f6f8fa", dark: "#101720" };
+    var meta = document.querySelector('meta[name="theme-color"]');
+
+    var sync = function () {
+      var dark = document.documentElement.getAttribute("data-theme") === "dark";
+      toggle.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      if (meta) meta.setAttribute("content", themeColors[dark ? "dark" : "light"]);
+    };
+
+    toggle.addEventListener("click", function () {
+      var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      sync();
+    });
+
+    sync();
+  })();
 </script>

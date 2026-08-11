@@ -1,3 +1,8 @@
+{% if site.goatcounter_code and page.analytics != false %}
+<!-- GoatCounter: privacy-friendly, cookie-free analytics. Skips localhost automatically. -->
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}
+
 {% if site.google_analytics_id and page.analytics != false %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

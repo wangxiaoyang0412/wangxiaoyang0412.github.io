@@ -425,14 +425,14 @@ h1:before, .anchor:before {
 
     &__icon {
         display: inline-grid;
-        width: 1.65rem;
-        height: 1.65rem;
+        width: 2rem;
+        height: 2rem;
         flex: 0 0 auto;
         place-items: center;
         border-radius: 50%;
         background: #eef4f8;
         color: #526f89;
-        font-size: 0.78rem;
+        font-size: 0.95rem;
     }
 }
 
@@ -471,9 +471,9 @@ h1:before, .anchor:before {
 
     &__logo {
         display: inline-flex;
-        width: 1.7rem;
-        height: 1.7rem;
-        flex: 0 0 1.7rem;
+        width: 2.35rem;
+        height: 2.35rem;
+        flex: 0 0 2.35rem;
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -1284,15 +1284,15 @@ html {
 
     &__icon {
         display: inline-flex;
-        width: 1.65rem;
-        height: 1.65rem;
+        width: 2rem;
+        height: 2rem;
         flex: 0 0 auto;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
         background: #eef4f8;
         color: #526f89;
-        font-size: 0.78rem;
+        font-size: 0.95rem;
     }
 }
 
@@ -1405,4 +1405,477 @@ html {
 .page__content > h1,
 .publication-heading h1 {
     font-size: 1.7rem;
+}
+
+/* ---- BibTeX copy buttons ---- */
+button.publication-action {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.publication-action.is-copied {
+    border-color: #2e7d4f;
+    color: #2e7d4f;
+}
+
+.publication-bibtex-copy {
+    margin-left: 0.45rem;
+    padding: 0.06rem 0.5rem;
+    border: 1px solid rgba(49, 91, 125, 0.35);
+    border-radius: 999px;
+    background: transparent;
+    color: #315b7d;
+    font-family: inherit;
+    font-size: 0.66rem;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: 0.08em;
+    cursor: pointer;
+
+    &:hover {
+        background: #eef3f6;
+    }
+
+    &.is-copied {
+        border-color: #2e7d4f;
+        color: #2e7d4f;
+    }
+}
+
+/* ==================================================================
+   Dark mode
+   Activated via html[data-theme="dark"] (set pre-paint in head.html,
+   toggled by .theme-toggle in the masthead, persisted in localStorage)
+   ================================================================== */
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    flex: 0 0 auto;
+    margin-left: 0.9rem;
+    border: 1px solid rgba(73, 78, 82, 0.2);
+    border-radius: 50%;
+    background: transparent;
+    color: #52606b;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+
+    &:hover {
+        border-color: rgba(49, 91, 125, 0.5);
+        color: #315b7d;
+    }
+
+    .fa-sun {
+        display: none;
+    }
+}
+
+html[data-theme="dark"] .theme-toggle {
+    border-color: rgba(255, 255, 255, 0.18);
+    color: #b6c4d1;
+
+    &:hover {
+        border-color: rgba(165, 198, 224, 0.6);
+        color: #a5c6e0;
+    }
+
+    .fa-moon {
+        display: none;
+    }
+
+    .fa-sun {
+        display: inline-block;
+    }
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+
+    body {
+        background-color: #101720;
+        background-image: linear-gradient(180deg, rgba(122, 167, 201, 0.07) 0%, rgba(122, 167, 201, 0.03) 52%, rgba(122, 167, 201, 0) 100%);
+        color: #c3ccd6;
+    }
+
+    /* --- Masthead & nav --- */
+    .masthead {
+        background-color: rgba(16, 23, 32, 0.78);
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .primary-nav__home,
+    .primary-nav__links a {
+        color: #dfe7ee;
+    }
+
+    .primary-nav__links a:after {
+        background: #7aa7c9;
+    }
+
+    .primary-nav__links a.is-current::after {
+        background: #a5c6e0;
+    }
+
+    .primary-nav__mobile ul {
+        background: #182130;
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .primary-nav__mobile ul a {
+        color: #dfe7ee;
+    }
+
+    /* --- Home profile --- */
+    .home-profile {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+
+        &__avatar img {
+            border-color: rgba(255, 255, 255, 0.16);
+        }
+
+        &__kicker {
+            color: #7e8fa0;
+        }
+
+        &__name.author__name {
+            color: #e8edf2;
+        }
+
+        &__summary {
+            color: #b3bec9;
+        }
+
+        &__background {
+            color: #93a0ac;
+        }
+
+        &__links a,
+        &__links span {
+            color: #93a7ba;
+        }
+
+        &__links a:hover {
+            border-bottom-color: rgba(165, 198, 224, 0.55);
+            color: #a5c6e0;
+        }
+
+        &__contact--github i,
+        &__contact--x .home-profile__x-icon {
+            color: #dfe7ee;
+        }
+    }
+
+    .home-profile__summary a,
+    .home-profile__background a {
+        color: #8fb8d9;
+    }
+
+    /* --- Section titles & generic content --- */
+    .page__content > h1,
+    .publication-heading h1 {
+        color: #e8edf2;
+    }
+
+    /* --- Research --- */
+    .research-overview__statement {
+        color: #ccd6df;
+
+        em {
+            color: #b9c8d8;
+        }
+    }
+
+    .research-direction {
+        border-top-color: rgba(255, 255, 255, 0.08);
+
+        h2 {
+            color: #b9c8d8;
+        }
+
+        p {
+            color: #b3bec9;
+        }
+
+        a {
+            color: #a5c6e0;
+            text-decoration-color: rgba(165, 198, 224, 0.35);
+
+            &:hover {
+                color: #cfe2f0;
+                text-decoration-color: #cfe2f0;
+            }
+        }
+    }
+
+    .research-venue {
+        color: #cf9aa4;
+    }
+
+    /* --- News --- */
+    .news-list a,
+    .news-archive a,
+    .news-archive summary {
+        color: #8fb8d9;
+    }
+
+    /* --- Publications --- */
+    .publication-legend {
+        color: #8a97a5;
+    }
+
+    .publication-switcher__button {
+        border-color: rgba(255, 255, 255, 0.14);
+        background: #1c2634;
+        color: #a9b8c6;
+
+        &.is-active {
+            border-color: rgba(165, 198, 224, 0.5);
+            background: #2a3a4e;
+            color: #e8edf2;
+        }
+    }
+
+    .paper-box {
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+
+        .paper-box-image img {
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+        }
+    }
+
+    .badge {
+        background-color: #2e5db3;
+    }
+
+    .publication-title {
+        color: #e8edf2;
+    }
+
+    .paper-box-text a {
+        color: #8fb8d9;
+    }
+
+    .publication-action {
+        border-color: rgba(122, 167, 201, 0.32);
+        background: #1c2634;
+        color: #a5c6e0;
+
+        &:visited {
+            color: #a5c6e0;
+        }
+
+        &:hover {
+            border-color: rgba(165, 198, 224, 0.6);
+            box-shadow: 0 0.16rem 0.38rem rgba(0, 0, 0, 0.4);
+        }
+
+        &--github {
+            border-color: #000;
+            background: #0d1117;
+            color: #dfe7ee;
+
+            &:visited,
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        &--download {
+            border-color: #3f6486;
+            background: #3f6486;
+            color: #eaf1f7;
+
+            &:visited,
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        &.is-copied {
+            border-color: #7ac89a;
+            color: #7ac89a;
+        }
+    }
+
+    .publication-citations {
+        color: #8a97a5;
+
+        &:hover {
+            color: #a5c6e0;
+        }
+    }
+
+    .publication-venue {
+        color: #cf9aa4;
+    }
+
+    .publication-full-list a {
+        color: #cfe2f0;
+    }
+
+    .publication-authors {
+        color: #8a97a5;
+    }
+
+    .publication-note {
+        color: #e08a99;
+    }
+
+    .publication-bibtex-copy {
+        border-color: rgba(165, 198, 224, 0.4);
+        color: #a5c6e0;
+
+        &:hover {
+            background: #223041;
+        }
+
+        &.is-copied {
+            border-color: #7ac89a;
+            color: #7ac89a;
+        }
+    }
+
+    /* --- Cards: Background & Teaching --- */
+    .background-module,
+    .teaching-module {
+        border-color: rgba(255, 255, 255, 0.09);
+        background: #182130;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .background-section h2,
+    .teaching-module__role {
+        color: #b9c8d8;
+    }
+
+    .background-section__icon,
+    .teaching-module__icon {
+        background: #223041;
+        color: #9fb4c6;
+    }
+
+    .background-item__main {
+        color: #c3ccd6;
+
+        strong,
+        strong a {
+            color: #e2e9ef;
+        }
+
+        span {
+            color: #93a0ac;
+        }
+    }
+
+    .background-item__date {
+        color: #8a97a5;
+    }
+
+    .teaching-module__group + .teaching-module__group {
+        border-top-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .teaching-module__role a {
+        color: inherit;
+
+        &:hover {
+            color: #a5c6e0;
+        }
+    }
+
+    .teaching-item__main {
+        color: #c3ccd6;
+
+        strong {
+            color: #e2e9ef;
+        }
+    }
+
+    .teaching-item__code {
+        background: #223041;
+        color: #9fb4c6;
+    }
+
+    .teaching-item__term {
+        color: #8a97a5;
+    }
+
+    /* --- Service --- */
+    .service-abbr {
+        color: #9fb4c6;
+        text-decoration-color: #5c6d7d;
+    }
+
+    /* --- Visitor map --- */
+    .visitor-map {
+        color: #b3bec9;
+
+        &__heading {
+            border-bottom-color: rgba(255, 255, 255, 0.08);
+            color: #e8edf2;
+        }
+
+        &__map {
+            border-color: rgba(255, 255, 255, 0.12);
+            background: #1a2330;
+        }
+
+        h3 {
+            color: #dfe7ee;
+        }
+
+        &__welcome {
+            color: #a3aeb9;
+        }
+
+        &__meta {
+            color: #8a97a5;
+
+            a {
+                color: #8fb8d9;
+            }
+
+            i {
+                color: #74838f;
+            }
+        }
+    }
+
+    /* --- 404 page --- */
+    .error-page {
+        &__code {
+            color: #7aa7c9;
+        }
+
+        &__title {
+            color: #e8edf2;
+        }
+
+        &__text {
+            color: #a3aeb9;
+        }
+
+        &__button {
+            background-color: #3f6486;
+
+            &:hover,
+            &:focus {
+                background-color: #4c7392;
+            }
+        }
+
+        &__link {
+            color: #8fb8d9;
+        }
+    }
+}
+
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+    html[data-theme="dark"] .masthead {
+        background-color: rgba(16, 23, 32, 0.96);
+    }
 }

@@ -67,144 +67,7 @@ redirect_from:
 </div>
 </details>
 
-<div class="publication-heading" id="publications">
-  <h1>Publications</h1>
-  <div class="publication-switcher" role="group" aria-label="Publication view">
-    <button class="publication-switcher__button is-active" type="button" data-publication-target="publication-highlights" aria-controls="publication-highlights" aria-pressed="true">Highlights</button>
-    <button class="publication-switcher__button" type="button" data-publication-target="publication-full-list" aria-controls="publication-full-list" aria-pressed="false">Full list</button>
-  </div>
-</div>
-
-<p class="publication-legend">&#42; Equal contribution.</p>
-
-<div class="publication-panel" id="publication-highlights">
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/fig1_illusion-1.webp' alt="Overview figure of the CARA cross-agent reasoning alignment framework" width="800" height="671" loading="lazy" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<p class="publication-title">The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment</p>
-
-**Xiaoyang Wang**, [Christopher C. Yang](https://cci.drexel.edu/faculty/cyang/).
-
-<div class="publication-actions">
-  <a class="publication-action publication-action--paper" href="https://arxiv.org/abs/2606.08457" aria-label="Read The Consistency Illusion paper">
-    <i class="fas fa-file-alt" aria-hidden="true"></i><span>Paper</span>
-  </a>
-  <!-- Replace the href below with the public GitHub repository URL when available. -->
-  <a class="publication-action publication-action--github" href="https://anonymous.4open.science/r/consistency-illusion-code-3629/" aria-label="View The Consistency Illusion code repository">
-    <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
-  </a>
-  <a class="publication-citations" href="{{ site.author.googlescholar }}"><strong><span class="show_paper_citations" data-paper-title="The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment" hidden></span></strong></a>
-</div>
-
-- This work introduces **CARA (Cross-Agent Reasoning Alignment)**, a family of metrics that tests whether multi-agent LLMs which agree on an answer also share compatible reasoning, revealing a **consistency illusion** in which debate suppresses agent contradictions while their reasoning chains grow less similar.
-- It proposes the **Grounded Debate Protocol (GDP)**, a lightweight prompt-level intervention that substantially improves cross-agent reasoning alignment across two medical QA benchmarks and two model backbones without adding any LLM calls.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS</div><img src='images/fakebench.webp' alt="FakeBench benchmark overview for explainable fake image detection" width="800" height="663" loading="lazy" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<p class="publication-title">FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models</p>
-
-[Yixuan Li](https://yixuanli423.github.io/), [Xuelin Liu](https://lxlhxl123.github.io/LXL.github.io/), **Xiaoyang Wang**, Bu Sung Lee, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/), [Anderson Rocha](https://www.ic.unicamp.br/~rocha/), and [Weisi Lin](https://personal.ntu.edu.sg/wslin/Home.html).
-
-<div class="publication-actions">
-  <a class="publication-action publication-action--paper" href="https://doi.org/10.1109/TIFS.2025.3597211" aria-label="Read the FakeBench paper">
-    <i class="fas fa-file-alt" aria-hidden="true"></i><span>Paper</span>
-  </a>
-  <a class="publication-action publication-action--github" href="https://github.com/Yixuanli423/FakeBench" aria-label="View FakeBench code on GitHub">
-    <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
-  </a>
-  <a class="publication-citations" href="{{ site.author.googlescholar }}"><strong><span class="show_paper_citations" data-paper-title="FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models||FakeBench: Uncover the Achilles' Heels of Fake Images with Large Multimodal Models" hidden></span></strong></a>
-</div>
-
-- This work introduces **FakeBench**, a multimodal benchmark designed to evaluate large multimodal models (LMMs) on explainable fake image detection rather than simple binary classification.
-- The benchmark incorporates a **fine-grained taxonomy of generative visual forgeries** and human-in-the-loop textual descriptions to assess detection, reasoning, interpretation, and detailed forgery analysis.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition</div><img src='images/DeepSelective.webp' alt="DeepSelective framework diagram for interpretable EHR prognosis prediction" width="800" height="473" loading="lazy" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<p class="publication-title">DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data</p>
-
-[Ruochi Zhang](https://scholar.google.com/citations?user=T-s84IoAAAAJ&hl=en&oi=ao), Qian Yang, **Xiaoyang Wang**, Tian Wang, Qiong Zhou, Ziqi Deng, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, [Fengfeng Zhou](https://scholar.google.com/citations?user=FL2GqPcAAAAJ&hl=en).
-
-<div class="publication-actions">
-  <a class="publication-action publication-action--paper" href="https://doi.org/10.1016/j.patcog.2025.112970" aria-label="Read the DeepSelective paper">
-    <i class="fas fa-file-alt" aria-hidden="true"></i><span>Paper</span>
-  </a>
-  <a class="publication-action publication-action--download" href="https://www.healthinformaticslab.org/supp/DeepSelective/DeepSelective-v2.zip" aria-label="Download the DeepSelective source code">
-    <i class="fas fa-download" aria-hidden="true"></i><span>Code</span>
-  </a>
-  <a class="publication-citations" href="{{ site.author.googlescholar }}"><strong><span class="show_paper_citations" data-paper-title="DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data" hidden></span></strong></a>
-</div>
-
-- This work proposes **DeepSelective**, a novel end to end deep learning framework for predicting patient prognosis using EHR data, with a strong emphasis on enhancing model interpretability.
-- DeepSelective combines **data compression** techniques with an innovative **feature selection** approach, integrating custom-designed modules that work together to improve both **accuracy and interpretability**.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Healthcare Informatics Research</div><img src='images/MediHive.webp' alt="MediHive decentralized multi-agent architecture diagram" width="800" height="402" loading="lazy" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<p class="publication-title">MediHive: A Decentralized Agent Collective for Medical Reasoning</p>
-
-**Xiaoyang Wang**, [Christopher C. Yang](https://cci.drexel.edu/faculty/cyang/).
-
-<div class="publication-actions">
-  <a class="publication-action publication-action--paper" href="https://link.springer.com/article/10.1007/s41666-026-00239-7" aria-label="Read the MediHive paper">
-    <i class="fas fa-file-alt" aria-hidden="true"></i><span>Paper</span>
-  </a>
-  <a class="publication-citations" href="{{ site.author.googlescholar }}"><strong><span class="show_paper_citations" data-paper-title="MediHive: A Decentralized Agent Collective for Medical Reasoning" hidden></span></strong></a>
-</div>
-
-- **MediHive** is a **decentralized** multi-agent framework for medical question answering, in which LLM-based agents self-assign specialized roles, resolve disagreements through conditional evidence-based debate, and iteratively fuse peer insights via a shared memory pool to reach consensus **without** any central coordinator.
-</div>
-</div>
-
-</div>
-
-<div class="publication-panel publication-full-list" id="publication-full-list" hidden markdown="1">
-
-1. <span class="publication-venue">EMNLP 2026</span> **[The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment](https://arxiv.org/abs/2606.08457)**<br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-2. <span class="publication-venue">IEEE TIFS</span> **[FakeBench: Probing Explainable Fake Image Detection via Large Multimodal Models](https://doi.org/10.1109/TIFS.2025.3597211)**<br>
-   <span class="publication-authors">Yixuan Li, Xuelin Liu, **Xiaoyang Wang**, Bu Sung Lee, Shiqi Wang, Anderson Rocha, and Weisi Lin.</span>
-
-3. <span class="publication-venue">Pattern Recognition</span> **[DeepSelective: Interpretable Prognosis Prediction via Feature Selection and Compression in EHR Data](https://doi.org/10.1016/j.patcog.2025.112970)**<br>
-   <span class="publication-authors">Ruochi Zhang, Qian Yang, **Xiaoyang Wang**, Tian Wang, Qiong Zhou, Ziqi Deng, Kewei Li, Yueying Wang, Yusi Fan, Jiale Zhang, Lan Huang, Chang Liu, and Fengfeng Zhou.</span>
-
-4. <span class="publication-venue">J Healthc Inform Res</span> **[MediHive: A Decentralized Agent Collective for Medical Reasoning](https://link.springer.com/article/10.1007/s41666-026-00239-7)**<br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-5. <span class="publication-venue">AMIA 2026</span> **Strategy-Guided Multi-Agent Debate for Medical Question Answering**<br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-6. <span class="publication-venue">ACM BCB 2025</span> **[MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction](https://arxiv.org/abs/2508.21793)**<br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-7. <span class="publication-venue">ACM BCB 2025</span> **[Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://arxiv.org/abs/2508.21803)**<br>
-   <span class="publication-authors">Yeawon Lee, **Xiaoyang Wang**, Christopher C. Yang.</span>
-
-8. <span class="publication-venue">IEEE ICHI 2025</span> **[Enhancing Multi-Attribute Fairness in Healthcare Predictive Modeling](https://arxiv.org/abs/2501.13219)**<br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-9. <span class="publication-venue">AIME 2025</span> **[Balancing Fairness and Performance in Healthcare AI: A Gradient Reconciliation Approach](https://link.springer.com/chapter/10.1007/978-3-031-95838-0_47)** <span class="publication-note">Top 6% Oral</span><br>
-   <span class="publication-authors">**Xiaoyang Wang**, Christopher C. Yang.</span>
-
-10. <span class="publication-venue">AIME 2024</span> **[Explainable AI for Fair Sepsis Mortality Predictive Model](https://arxiv.org/abs/2404.13139)**<br>
-    <span class="publication-authors">Chia-Hsuan Chang\*, **Xiaoyang Wang\***, Christopher C. Yang.</span>
-
-11. <span class="publication-venue">IEEE ICHI 2024</span> **[An ExplainableFair Framework for Prediction of Substance Use Disorder Treatment Completion](https://arxiv.org/abs/2404.03833)**<br>
-    <span class="publication-authors">Mary M. Lucas, **Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang.</span>
-
-12. <span class="publication-venue">IEEE Access</span> **[Achieving Equity via Transfer Learning with Fairness Optimization](https://doi.org/10.1109/ACCESS.2024.3519465)**<br>
-    <span class="publication-authors">**Xiaoyang Wang**, Chia-Hsuan Chang, Christopher C. Yang.</span>
-
-</div>
+{% include publications.html %}
 
 <script src="{{ '/assets/js/home-interactions.js' | relative_url }}" defer></script>
 
@@ -317,8 +180,8 @@ redirect_from:
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # Academic Service {#service}
-- **Journal Reviewership:** <abbr class="service-abbr" title="Journal of the American Medical Informatics Association">JAMIA</abbr>, <abbr class="service-abbr" title="Journal of Healthcare Informatics Research">J Healthc Inform Res</abbr>, <abbr class="service-abbr" title="IEEE Transactions on Information Forensics and Security">IEEE TIFS</abbr>, <abbr class="service-abbr" title="Information Processing &amp; Management">IP&amp;M</abbr>, <abbr class="service-abbr" title="ACM Transactions on Computing for Healthcare">ACM HEALTH</abbr>, <abbr class="service-abbr" title="Medical Image Analysis">MedIA</abbr>, and <abbr class="service-abbr" title="Computers &amp; Electrical Engineering">Comput Electr Eng</abbr>.
-- Conference Reviewer: *NeurIPS’24, AAAI’25, ICLR’25, ICWSM’25, IEEE ICHI’25, IEEE ICHI’26, WWW'26, Digital Twins for Health Society (DT4HS), IEEE ICME’26*
+- **Journal Reviewer:** <abbr class="service-abbr" title="Journal of the American Medical Informatics Association">JAMIA</abbr>, <abbr class="service-abbr" title="Journal of Healthcare Informatics Research">J Healthc Inform Res</abbr>, <abbr class="service-abbr" title="IEEE Transactions on Information Forensics and Security">IEEE TIFS</abbr>, <abbr class="service-abbr" title="Information Processing &amp; Management">IP&amp;M</abbr>, <abbr class="service-abbr" title="ACM Transactions on Computing for Healthcare">ACM HEALTH</abbr>, <abbr class="service-abbr" title="Medical Image Analysis">MedIA</abbr>, and <abbr class="service-abbr" title="Computers &amp; Electrical Engineering">Comput Electr Eng</abbr>.
+- **Conference Reviewer:** NeurIPS 2024, AAAI 2025, ICLR 2025, ICWSM 2025, IEEE ICHI 2025 &amp; 2026, WWW 2026, IEEE ICME 2026, and Digital Twins for Health Society (DT4HS).
 
 # Teaching Experience {#teaching}
 
