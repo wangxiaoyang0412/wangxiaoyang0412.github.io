@@ -29,6 +29,8 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
 
 # 🔥 News
 
+<!-- - *2026.08*: &nbsp;🎉 A paper accepted by [*Empirical Methods in Natural Language Processing (EMNLP 2026)*](https://2026.emnlp.org/). -->
+- *2026.08*: &nbsp;⛳ Successfully defended the Ph.D. Dissertation Proposal at Drexel University.
 - *2026.06*: &nbsp;✈️ Attended *IEEE ICHI 2026* in Minneapolis, MN and delivered a presentation.
 - *2026.05*: &nbsp;🎉 A paper accepted by [*AMIA 2026 Annual Symposium*](https://amia.org/education-events/amia-2026-annual-symposium).
 - *2026.05*: &nbsp;🎉 A paper accepted by [*Journal of Healthcare Informatics Research*](https://link.springer.com/journal/41666).
@@ -70,6 +72,23 @@ Before joining Drexel University for my doctoral studies, I earned my M.S. degre
     margin-right: 2px !important;
 }
 </style>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/fig1_illusion-1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment](https://arxiv.org/pdf/2606.08457)
+
+**Xiaoyang Wang**, [Christopher C. Yang](http://cci.drexel.edu/faculty/cyang/).
+
+<a href="https://anonymous.4open.science/r/consistency-illusion-code-3629/" style="vertical-align: middle; margin-right: 10px;">
+  <img src="https://img.shields.io/badge/Project-GitHub-181717?style=flat&logo=github" alt="GitHub Project">
+</a>
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This work introduces **CARA (Cross-Agent Reasoning Alignment)**, a family of metrics that tests whether multi-agent LLMs which agree on an answer also share compatible reasoning, revealing a **consistency illusion** in which debate suppresses agent contradictions while their reasoning chains grow less similar.
+- It proposes the **Grounded Debate Protocol (GDP)**, a lightweight prompt-level intervention that substantially improves cross-agent reasoning alignment across two medical QA benchmarks and two model backbones without adding any LLM calls.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIFS</div><img src='images/fakebench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
