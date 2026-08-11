@@ -1,12 +1,11 @@
 <div class="publication-heading" id="publications">
   <h1>Publications</h1>
+  <p class="publication-legend">&#42; Equal contribution.</p>
   <div class="publication-switcher" role="group" aria-label="Publication view">
     <button class="publication-switcher__button is-active" type="button" data-publication-target="publication-highlights" aria-controls="publication-highlights" aria-pressed="true">Highlights</button>
     <button class="publication-switcher__button" type="button" data-publication-target="publication-full-list" aria-controls="publication-full-list" aria-pressed="false">Full list</button>
   </div>
 </div>
-
-<p class="publication-legend">&#42; Equal contribution.</p>
 
 <div class="publication-panel" id="publication-highlights">
 {% for pub in site.data.publications %}{% if pub.highlight %}
