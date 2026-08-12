@@ -73,6 +73,78 @@ redirect_from:
 
 # Background {#background}
 
+{% if site.data.settings.background_view == "compact" %}
+
+<div class="compact-background" aria-label="Education and honors">
+  <section class="compact-background__col" aria-labelledby="compact-education">
+    <h2 class="compact-background__title" id="compact-education">Education</h2>
+    <ul class="edu-timeline">
+      <li class="edu-timeline__item">
+        <span class="edu-timeline__logo" aria-hidden="true"><img src="{{ '/images/institutions/drexel.png' | relative_url }}" alt=""></span>
+        <div class="edu-timeline__body">
+          <strong><a href="https://drexel.edu/">Drexel University</a></strong>
+          <span class="edu-timeline__degree">Ph.D. in Information Science</span>
+          <span class="edu-timeline__years">2022 &ndash; Present</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <span class="edu-timeline__logo" aria-hidden="true"><img src="{{ '/images/institutions/pitt.png' | relative_url }}" alt=""></span>
+        <div class="edu-timeline__body">
+          <strong><a href="https://www.pitt.edu/">University of Pittsburgh</a></strong>
+          <span class="edu-timeline__degree">M.Sc. in Information Science</span>
+          <span class="edu-timeline__years">2018 &ndash; 2020</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <span class="edu-timeline__logo" aria-hidden="true"><img src="{{ '/images/institutions/shnu.png' | relative_url }}" alt=""></span>
+        <div class="edu-timeline__body">
+          <strong><a href="https://www.shnu.edu.cn/">Shanghai Normal University</a></strong>
+          <span class="edu-timeline__degree">B.Eng. in Telecommunication Engineering</span>
+          <span class="edu-timeline__years">2014 &ndash; 2018</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="compact-background__col" aria-labelledby="compact-awards">
+    <h2 class="compact-background__title" id="compact-awards">Honors &amp; Awards</h2>
+    <ul class="edu-timeline awards-timeline">
+      <li class="edu-timeline__item">
+        <div class="edu-timeline__body">
+          <strong>The Institute for Healthcare Informatics (IHI) Student Award</strong>
+          <span class="edu-timeline__years">2026</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <div class="edu-timeline__body">
+          <strong>AIME 2025 Student Scholar Award</strong>
+          <span class="edu-timeline__years">2025</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <div class="edu-timeline__body">
+          <strong>IEEE ICHI 2025 Student Scholar Award</strong>
+          <span class="edu-timeline__years">2025</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <div class="edu-timeline__body">
+          <strong>Merit Student Researcher Scholarship, Chinese Academy of Sciences</strong>
+          <span class="edu-timeline__years">2017</span>
+        </div>
+      </li>
+      <li class="edu-timeline__item">
+        <div class="edu-timeline__body">
+          <strong>Second Prize Merit Scholarship, Shanghai Normal University</strong>
+          <span class="edu-timeline__years">2016</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+{% else %}
+
 <section class="background-module" aria-label="Education, work experience, and honors">
   <div class="background-module__grid">
     <section class="background-section" aria-labelledby="education">
@@ -100,7 +172,7 @@ redirect_from:
         </li>
         <li>
           <div class="background-item__identity">
-            <span class="background-item__logo background-item__logo--shnu" aria-hidden="true"><img src="{{ '/images/institutions/shnu.jpg' | relative_url }}" alt=""></span>
+            <span class="background-item__logo background-item__logo--shnu" aria-hidden="true"><img src="{{ '/images/institutions/shnu.png' | relative_url }}" alt=""></span>
             <div class="background-item__main">
               <strong><a href="https://www.shnu.edu.cn/">Shanghai Normal University</a></strong>
               <span>B.Eng. in Telecommunication Engineering · Shanghai, China</span>
@@ -174,6 +246,8 @@ redirect_from:
     </section>
   </div>
 </section>
+
+{% endif %}
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

@@ -1,0 +1,8 @@
+# Site display settings.
+# Files in _data/ are hot-reloaded by `jekyll serve` — edit, save, and the site
+# rebuilds automatically (no server restart needed).
+
+# Background section view:
+#   "detailed" — Education + Work Experience + Honors & Awards card module
+#   "compact"  — timeline-style Education + Honors & Awards only
+background_view: compact

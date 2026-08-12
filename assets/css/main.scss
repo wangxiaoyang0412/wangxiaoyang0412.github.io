@@ -1890,3 +1890,169 @@ html[data-theme="dark"] {
         background-color: rgba(16, 23, 32, 0.96);
     }
 }
+
+/* ---- Compact Background view (timeline Education + Awards) ----
+   Rendered when _data/settings.yml sets background_view: compact */
+.compact-background {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 2.6rem;
+    margin: 0.45rem 0 2.25rem;
+
+    &__col {
+        min-width: 0;
+    }
+
+    &__title {
+        display: inline-block;
+        margin: 0 0 1.05rem;
+        padding: 0 0 0.45rem;
+        border: 0;
+        border-bottom: 3px solid rgba(49, 91, 125, 0.5);
+        color: #315b7d;
+        font-family: $serif;
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+}
+
+.edu-timeline {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 1.15rem;
+    border-left: 2px solid rgba(49, 91, 125, 0.25);
+    list-style: none;
+
+    &__item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 0.95rem;
+        margin: 0;
+        padding: 0.55rem 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: calc(-1.15rem - 5px);
+            width: 8px;
+            height: 8px;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            background: #315b7d;
+        }
+    }
+
+    &__logo {
+        display: inline-flex;
+        width: 2.9rem;
+        height: 2.9rem;
+        flex: 0 0 auto;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            object-fit: contain;
+            box-shadow: none;
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.12rem;
+        min-width: 0;
+
+        strong {
+            color: #2b333a;
+            font-size: 1rem;
+
+            a {
+                color: inherit;
+                text-decoration: none;
+
+                &:hover {
+                    color: #315b7d;
+                }
+            }
+        }
+    }
+
+    &__degree {
+        color: #6d7c89;
+        font-size: 0.88rem;
+    }
+
+    &__years {
+        color: #315b7d;
+        font-size: 0.84rem;
+        font-weight: 600;
+    }
+}
+
+.awards-timeline {
+    .edu-timeline__item {
+        padding: 0.34rem 0;
+    }
+
+    .edu-timeline__body {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.15rem 0.6rem;
+    }
+
+    .edu-timeline__body strong {
+        font-size: 0.92rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 680px) {
+    .compact-background {
+        grid-template-columns: 1fr;
+    }
+}
+
+html[data-theme="dark"] {
+    .compact-background__title {
+        border-bottom-color: rgba(165, 198, 224, 0.45);
+        color: #a5c6e0;
+    }
+
+    .edu-timeline {
+        border-left-color: rgba(165, 198, 224, 0.3);
+    }
+
+    .edu-timeline__item::before {
+        background: #7aa7c9;
+    }
+
+    .edu-timeline__logo {
+        padding: 0.2rem;
+        border-radius: 6px;
+        background: #fff;
+    }
+
+    .edu-timeline__body strong {
+        color: #e2e9ef;
+
+        a:hover {
+            color: #a5c6e0;
+        }
+    }
+
+    .edu-timeline__degree {
+        color: #93a0ac;
+    }
+
+    .edu-timeline__years {
+        color: #a5c6e0;
+    }
+
+}
