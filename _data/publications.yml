@@ -142,7 +142,8 @@
 - id: fair-moe-health
   title: "FairMoE-Health: Fairness-Aware Mixture of Experts for Equitable Multimodal Clinical Prediction"
   short_name: "FairMoE-Health"
-  venue: "IEEE Journal of Biomedical and Health Informatics (J-BHI)"
+  venue: "IEEE JBHI"
+  # badge: "IEEE Journal of Biomedical and Health Informatics"
   authors: '<strong>Xiaoyang Wang</strong>, Christopher C. Yang.'
   highlight: false
   bibtex: |-
