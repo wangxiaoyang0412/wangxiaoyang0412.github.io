@@ -37,6 +37,7 @@ redirect_from:
 
 <div class="news-list" markdown="1">
 
+- *2026.09*: &nbsp;🎉 A paper accepted by [*IEEE Journal of Biomedical and Health Informatics (J-BHI)*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287935).
 - *2026.08*: &nbsp;🎉 A *Main Conference* paper accepted by [*Empirical Methods in Natural Language Processing (EMNLP 2026)*](https://2026.emnlp.org/).
 - *2026.08*: &nbsp;⛳ Successfully defended the Ph.D. Dissertation Proposal at Drexel University.
 - *2026.06*: &nbsp;✈️ Attended *IEEE ICHI 2026* in Minneapolis, MN and delivered a presentation.

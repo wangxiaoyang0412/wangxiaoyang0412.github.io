@@ -139,6 +139,20 @@
       note      = {To appear}
     }
 
+- id: fair-moe-health
+  title: "FairMoE-Health: Fairness-Aware Mixture of Experts for Equitable Multimodal Clinical Prediction"
+  short_name: "FairMoE-Health"
+  venue: "IEEE Journal of Biomedical and Health Informatics (J-BHI)"
+  authors: '<strong>Xiaoyang Wang</strong>, Christopher C. Yang.'
+  highlight: false
+  bibtex: |-
+    @article{wang2026fairmoehealth,
+      title   = {FairMoE-Health: Fairness-Aware Mixture of Experts for Equitable Multimodal Clinical Prediction},
+      author  = {Wang, Xiaoyang and Yang, Christopher C.},
+      journal = {IEEE Journal of Biomedical and Health Informatics},
+      year    = {2026}
+    }
+
 - id: moe-health
   title: "MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction"
   short_name: "MoE-Health"
