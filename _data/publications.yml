@@ -18,6 +18,59 @@
 #   bibtex         BibTeX entry offered via the copy button
 #   highlight      true = show as a Highlights card
 
+- id: disparity-laundering
+  title: "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems"
+  short_name: "Disparity Laundering"
+  venue: "EACL 2027"
+  badge: "EACL 2027"
+  authors: '<strong>Xiaoyang Wang</strong>, Tianrui Wang, Christopher C. Yang.'
+  authors_linked: '<strong>Xiaoyang Wang</strong>, Tianrui Wang, <a href="https://cci.drexel.edu/faculty/cyang/">Christopher C. Yang</a>.'
+  image: "images/disparity-laundering.webp"
+  image_alt: "Aggregate triage error suggests parity across race, while paired triage shows every multi-agent team assigns the Black version of a patient more urgent triage"
+  image_width: 800
+  image_height: 280
+  paper_url: "https://arxiv.org/abs/2610.38215"
+  github_url: "https://github.com/wangxiaoyang0412/disparity-laundering"
+  citations_key: "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems"
+  highlight: true
+  summary:
+    - "This work identifies **disparity laundering**: changing only the race label on 120 real MIMIC-IV-ED emergency cases, all 20 teams built from five open-weight model families and four aggregation topologies commit Black patients to more acute triage, while every check that reads one version of the patient at a time (accuracy, consensus, and the agents' own rationales) finds nothing wrong."
+    - "It proposes the **Diverse-Perspective Ensemble (DPE)**, which gives each agent a different demographic version of the same patient so the team itself performs the comparison no single agent can, cutting the disparity by up to 94% with no retraining and no architectural change."
+  bibtex: |-
+    @inproceedings{wang2027disparity,
+      title     = {Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems},
+      author    = {Wang, Xiaoyang and Wang, Tianrui and Yang, Christopher C.},
+      booktitle = {Proceedings of the 20th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+      year      = {2027},
+      note      = {To appear}
+    }
+
+- id: unanimously-wrong
+  title: "Unanimously Wrong: Certified Abstention from How Medical LLM Consensus Forms"
+  short_name: "Unanimously Wrong"
+  venue: "NeurIPS 2026 GenAI4Health"
+  badge: "NeurIPS 2026 GenAI4Health"
+  authors: '<strong>Xiaoyang Wang</strong>, Tianrui Wang, Christopher C. Yang.'
+  authors_linked: '<strong>Xiaoyang Wang</strong>, Tianrui Wang, <a href="https://cci.drexel.edu/faculty/cyang/">Christopher C. Yang</a>.'
+  image: "images/probeguard.webp"
+  image_alt: "Two unanimous votes that look identical to agreement-based abstention; ProbeGuard tells them apart from their rationales and from how they respond to counter-evidence"
+  image_width: 800
+  image_height: 397
+  paper_url: "https://arxiv.org/abs/2610.07570"
+  github_url: "https://github.com/wangxiaoyang0412/probeguard"
+  citations_key: "Unanimously Wrong: Certified Abstention from How Medical LLM Consensus Forms"
+  highlight: true
+  summary:
+    - "This work shows that agreement is a blind spot for multi-round medical QA systems: on MedQA, 13.4% of the questions that reach first-round unanimity are answered wrongly, and on those questions every agreement-based confidence signal is constant."
+    - "It proposes **ProbeGuard**, which decides whether to answer from **how the consensus formed**: trajectory features from the execution log, **rationale semantic entropy** and a **counter-evidence probe** for unanimous votes, and a stratified **Learn-then-Test calibration** that certifies the selective risk of the answered questions."
+  bibtex: |-
+    @inproceedings{wang2026unanimously,
+      title     = {Unanimously Wrong: Certified Abstention from How Medical {LLM} Consensus Forms},
+      author    = {Wang, Xiaoyang and Wang, Tianrui and Yang, Christopher C.},
+      booktitle = {NeurIPS 2026 Workshop on GenAI for Health (GenAI4Health)},
+      year      = {2026}
+    }
+
 - id: consistency-illusion
   title: "The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment"
   short_name: "Consistency Illusion"
@@ -30,8 +83,7 @@
   image_width: 800
   image_height: 671
   paper_url: "https://arxiv.org/abs/2606.08457"
-  # Replace with the public GitHub repository URL when available.
-  github_url: "https://anonymous.4open.science/r/consistency-illusion-code-3629/"
+  github_url: "https://github.com/wangxiaoyang0412/consistency-illusion"
   citations_key: "The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment"
   highlight: true
   summary:

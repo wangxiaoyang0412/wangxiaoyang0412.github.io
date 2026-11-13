@@ -29,7 +29,7 @@ redirect_from:
 
   <div class="research-direction">
     <h2>Medical Agents</h2>
-    <p>When a panel of LLM agents agrees on an answer, should we believe it? My work builds medical agent systems and probes exactly that question: <a href="https://link.springer.com/article/10.1007/s41666-026-00239-7">MediHive</a> <span class="research-venue">J Healthc Inform Res</span> coordinates specialized agents without a central controller, <a href="https://arxiv.org/abs/2606.08457">The Consistency Illusion</a> shows that debate can align answers while reasoning quietly drifts apart, and a <a href="https://arxiv.org/abs/2508.21803">collaborative multi-agent architecture</a> <span class="research-venue">ACM BCB 2025</span> detects clinical problems from SOAP notes.</p>
+    <p>When a panel of LLM agents agrees on an answer, should we believe it? My work builds medical agent systems and probes exactly that question: <a href="https://link.springer.com/article/10.1007/s41666-026-00239-7">MediHive</a> <span class="research-venue">J Healthc Inform Res</span> coordinates specialized agents without a central controller, and a <a href="https://arxiv.org/abs/2508.21803">collaborative multi-agent architecture</a> <span class="research-venue">ACM BCB 2025</span> detects clinical problems from SOAP notes. Agreement alone can mislead: <a href="https://arxiv.org/abs/2606.08457">The Consistency Illusion</a> <span class="research-venue">EMNLP 2026</span> shows that debate can align answers while reasoning quietly drifts apart, <a href="https://arxiv.org/abs/2610.07570">Unanimously Wrong</a> <span class="research-venue">NeurIPS 2026 GenAI4Health</span> certifies when a unanimous panel should abstain rather than answer, and <a href="https://arxiv.org/abs/2610.38215">Disparity Laundering</a> <span class="research-venue">EACL 2027</span> shows that team consensus can commit demographic bias that accuracy, agreement, and the agents' own rationales all miss.</p>
   </div>
 </div>
 
@@ -37,6 +37,8 @@ redirect_from:
 
 <div class="news-list" markdown="1">
 
+- *2026.11*: &nbsp;🎉 A *Main Conference* paper accepted by [*the 20th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2027)*](https://2027.eacl.org/).
+- *2026.09*: &nbsp;🎉 A paper accepted by [*the GenAI for Health Workshop at the 40th Conference on Neural Information Processing Systems (NeurIPS 2026 GenAI4Health)*](https://genai4health.github.io/2026-NeurIPS/).
 - *2026.09*: &nbsp;🎉 A paper accepted by [*IEEE Journal of Biomedical and Health Informatics (J-BHI)*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287935).
 - *2026.08*: &nbsp;🎉 A *Main Conference* paper accepted by [*Empirical Methods in Natural Language Processing (EMNLP 2026)*](https://2026.emnlp.org/).
 - *2026.08*: &nbsp;⛳ Successfully defended the Ph.D. Dissertation Proposal at Drexel University.
